@@ -1,12 +1,13 @@
 #hero {
+
   min-height: 100vh;
   height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   border-bottom: 0px;
   background: $white-color;
   font-weight: 400;
-  color: $dark-blue-text;
+  color: white;
   padding: 0rem 5.6rem;
   margin-bottom: 0;
   top: 0;
@@ -18,18 +19,17 @@
   // Set position sticky so the jumbotron stays fixed while you scroll.
   // position: sticky;
 
-  // If you want to set a background image on the hero section, uncomment these with your custom image
 
-  /* background: url("/src/assets/[your-image].png");
+  background: url("/src/assets/abstract.jpg");
   background-position: center;
-  background-size: cover; */
+  background-size: cover;
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
   }
 
   .hero-title {
-    font-size: 5.6rem;
+    font-size: 4vw;
     font-weight: 700;
     margin-bottom: 3.2rem;
     text-align: left;
