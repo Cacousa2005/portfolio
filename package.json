@@ -18,9 +18,9 @@
   "author": "Ricardo Ferreira",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cacousa2005/portfolio"
+    "url": "https://Cacousa2005/github.io/portfolio"
   },
-  "homepage": "https://github.com/cacousa2005/portfolio",
+  "homepage": "https://Cacousa2005/github.io/portfolio",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.2",
     "parcel": "^2.8.2",
